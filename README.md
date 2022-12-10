@@ -5,11 +5,14 @@ The Starbucks company provides a rewards application for its customers where the
 - AWS Notebook instance with jupyterlab hosted on an `ml.t3.medium` instance
 - Kernel Chosen: `conda_python3` kernel with the following needed packages and their installed versions
 ```
-Python 3.8.12
+pandas 1.3.4
 numpy 1.18.5
+Pandas 
 seaborn 0.11.2
 matplotlib 3.5.0
 sagemaker 2.119.0
+---
+python 3.8.12
 ```
 
 ![notebook instance](screenshots/notebook_instance.png)
