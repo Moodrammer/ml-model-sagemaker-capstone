@@ -1,2 +1,49 @@
-# starbucks-ml-model-sagemaker
-Capstone Project for Udacity AWS MLE Nanodegree, the goal of the project is to analyze a given dataset that represents customers demographics and transactions on the starbucks app (simulated data) and build a model that can give some insights to the app for providing offers to its users.
+# ☕ Starbucks ML Model Sagemaker
+## Project Overview
+The Starbucks company provides a rewards application for its customers where they receive multiple offers, discounts as well as advertisements. Since there are alot of customer segments available and alot of different offers, it might be difficult for the company to direct each offer type to its suitable audience. The Company decided to provide a simulated dataset for the users of its app simulating their transactions and behaviours for that matter. My goal is to anaylize the given dataset and then to build a machine learning model utilizing the ideas of AutoML that can predict whether or not a user might accept an offer given the user's demographic data as well as the offer's details.
+## 🌴 Environment
+- AWS Notebook instance with jupyterlab hosted on an `ml.t3.medium` instance
+- Kernel Chosen: `conda_python3` kernel with the following needed packages and their installed versions
+```
+Python 3.8.12
+numpy 1.18.5
+seaborn 0.11.2
+matplotlib 3.5.0
+sagemaker 2.119.0
+```
+
+![notebook instance](screenshots/notebook_instance.png)
+## 📁 Directory structure
+```
++
+|   dataset.csv
+|   proposal.pdf
+|   README.md
+|   report.pdf
+|   Starbucks_Capstone_notebook.ipynb
+|   Starbucks_Capstone_notebook.html
+|   
++---data
+|       portfolio.json
+|       profile.json
+|       transcript.json
+|       
++---processed_data
+|   +---test
+|   |       data.csv
+|   |       
+|   \---train
+|           data.csv
+|           
+\---screenshots
+        age_vs_income.png
+        ConfusionMatrix.png
+        deployed_endpoint.png
+        Training_jobs.png
+```
+## 📷 screenshots
+### Training jobs
+![Training jobs image](screenshots/Training_jobs.png)
+### Deployed endpoint
+![Deployed endpoint](screenshots/deployed_endpoint.png)
+
